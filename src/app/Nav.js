@@ -65,7 +65,7 @@ export default function Home() {
                                 }`}
                         >
                             <ul className="items-center justify-center space-y-8 font-medium md:flex md:space-x-6 md:space-y-0 text-xs">
-                                <li className='mx-6 -mt-4 lg:mt-0 cursor-pointer'>Dashboard</li>
+                                <li className=' -mt-4 lg:mt-0 cursor-pointer'>Dashboard</li>
                                 <li className='mx-6 cursor-pointer'>About Us</li>
                                 <li className='mx-6 cursor-pointer'>News</li>
                                 <li className='mx-6 cursor-pointer'>User Policy</li>

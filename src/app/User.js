@@ -14,7 +14,7 @@ const User = () => {
                 <Icons icon={<BiSolidUserCircle color='gray' size="20px" />} />
             </div>
             <div className='flex flex-col mt-2 justify-center'>
-                <Image className='mx-auto border-1 relative  p-3 border-gray-200 w-32 h-32 my-1 rounded-full object-cover' src="/userd.jpeg" alt='img' width={100} height={100}></Image>
+                <Image  className='mx-auto border-1 relative  p-3 border-gray-200 w-32 h-32 my-1 rounded-full object-cover' src="/userd.jpeg" alt='img' width={100} height={100}></Image>
                 <div className='rounded-bl-full absolute rounded-br-full rounded-tl-full border-b-4 mx-[4.5rem] -mt-[4.5rem] border-l-4 border-blue-300 p-16'></div>
                 <h1 className=' mx-auto font-bold my-4'>Hello Alfred Bryant</h1>
                 <p className='mx-auto -mt-2 text-sm'>adrain.haden@yahoo.com</p>
