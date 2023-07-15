@@ -10,7 +10,7 @@ const Modal = () => {
     }
     return (
         <div className={`modal ${modalVisible ? 'visible' : 'hidden'}`}>
-            <div className='fixed bottom-4 right-4 flex flex-col text-sm border rounded-lg p-4 bg-white z-10  shadow-md'>
+            <div className='fixed lg:bottom-4 lg:right-4 flex flex-col text-sm border rounded-lg p-4 bg-white z-10 shadow-md'>
                 <div className='flex justify-between items-center align-middle'>
                     <h1 className='font-bold my-2 mx-4'>Development Apps</h1>
                     <button onClick={closeModal}><AiOutlineClose /></button>

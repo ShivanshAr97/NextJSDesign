@@ -7,7 +7,7 @@ import Icons from './Icons';
 
 const SideNav = () => {
   return (
-    <div className='h-[124vh] w-[7%] flex flex-col'>
+    <div className='hidden lg:h-[124vh] lg:w-[7%] lg:flex lg:flex-col'>
         <div className='flex mx-auto flex-col mt-4'>
         <Icons icon={<BsMessenger size="20px" color='blue'/>}/>
         <Icons icon={<AiOutlineCompass size="20px" color='gray'/>}/>
