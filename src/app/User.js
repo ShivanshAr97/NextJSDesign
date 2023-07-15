@@ -28,14 +28,6 @@ const User = () => {
                 <UserIcons title="Clients" icon={<BsPeopleFill size="20px" />}/>
                 <UserIcons title="Calendars" icon={<AiOutlineCalendar size="20px" />}/>
                 <UserIcons title="Settings" icon={<AiFillSetting size="20px" />}/>
-                {/* <p className='border h-20 w-24 p-4 '><span className='flex justify-center items-center mt-4 mb-2'></span><span className='flex justify-center'></span></p> */}
-                {/* <p className='border h-20 w-24 p-4 '><span className='flex justify-center items-center mt-4 mb-2'></span><span className='flex justify-center'>Dashboard</span></p> */}
-                {/* <p className='border h-20 w-24 p-4 '><span className='flex justify-center items-center mt-4 mb-2'></span><span className='flex justify-center'></span></p>
-                <p className='border h-20 w-24 p-4 '><span className='flex justify-center items-center mt-4 mb-2'></span><span className='flex justify-center'></span></p>
-                <p className='border h-20 w-24 p-4 '><span className='flex justify-center items-center mt-4 mb-2'></span><span className='flex justify-center'></span></p>
-                <p className='border h-20 w-24 p-4 '><span className='flex justify-center items-center mt-4 mb-2'></span><span className='flex justify-center'></span></p>
-                <p className='border h-20 w-24 p-4 '><span className='flex justify-center items-center mt-4 mb-2'></span><span className='flex justify-center'></span></p>
-                <p className='border h-20 w-24 p-4 '><span className='flex justify-center items-center mt-4 mb-2'></span><span className='flex justify-center'></span></p> */}
             </div>
 
         </div>

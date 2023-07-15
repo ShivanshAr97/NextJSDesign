@@ -1,6 +1,5 @@
 import React from 'react'
 import ContentHeading from './ContentHeading'
-import Work from './Work';
 import Work2 from './Work2';
 
 const Content3 = () => {
