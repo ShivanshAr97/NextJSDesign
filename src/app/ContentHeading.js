@@ -10,8 +10,8 @@ const ContentHeading = ({ title, number }) => {
                 <span className='border rounded-full px-1 my-2 text-xs text-gray-500'>{number}</span>
             </div>
             <div className='flex items-center justify-center mr-2'>
-                <span className='mx-2'><BsThreeDots /></span>
-                <span><AiOutlinePlusCircle /></span>
+                <span className='mx-2 cursor-pointer'><BsThreeDots /></span>
+                <span className=' cursor-pointer'><AiOutlinePlusCircle /></span>
             </div>
         </div>
     )
