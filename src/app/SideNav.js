@@ -9,9 +9,9 @@ const SideNav = () => {
   return (
     <div className='hidden lg:h-[124vh] lg:w-[7%] lg:flex lg:flex-col'>
         <div className='flex mx-auto flex-col mt-4'>
-        <Icons icon={<BsMessenger size="20px" color='blue'/>}/>
-        <Icons icon={<AiOutlineCompass size="20px" color='gray'/>}/>
+        <Icons icon={<AiOutlineCompass size="20px" color='blue'/>}/>
         <Icons icon={<AiOutlineStar size="20px" color='gray'/>}/>
+        <Icons icon={<BsMessenger size="20px" color='gray'/>}/>
         <Icons icon={<BiTrendingUp size="20px" color='gray'/>}/>
         <Icons icon={<BsGlobeAmericas size="20px" color='gray'/>}/>
         <Icons icon={<BiBuildingHouse size="20px" color='gray'/>}/>

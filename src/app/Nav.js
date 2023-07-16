@@ -1,10 +1,9 @@
 "use client"
-import Link from 'next/link';
 import { useState } from 'react';
 import { BsFillBellFill } from 'react-icons/bs';
 import { BiSolidUserCircle } from 'react-icons/bi';
 import { MdCancel } from 'react-icons/md';
-import { BsThreeDots } from 'react-icons/bs';
+import { HiBars3 } from 'react-icons/hi2';
 import Icons from './Icons';
 import { AiOutlineSearch } from 'react-icons/ai';
 
@@ -18,7 +17,7 @@ export default function Home() {
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-2 md:block">
                             <div className='flex items-center'>
-                                <Icons icon={<BsThreeDots color='blue' size="20px" />} />
+                                <Icons icon={<HiBars3 color='gray' size="20px" />} />
                                 <p className='font-bold text-base mx-2'>Constructor</p>
                             </div>
                             <div className="md:hidden">
