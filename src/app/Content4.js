@@ -8,9 +8,8 @@ const Content4 = () => {
   return (
     <div className='capitalize'>
       <ContentHeading title="done" number={1} />
-        <Work title="Types of Papers In Catalog" userImg={'/usera.png'} img={"/usere.jpeg"}
-        />
       <Work2 title="Types of Papers In Catalog" userImg={'/userc.png'} />
+      <NewTask/>
     </div>
   )
 }

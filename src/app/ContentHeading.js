@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlinePlusCircle } from 'react-icons/ai'
+import { AiOutlinePlus } from 'react-icons/ai'
 import { BsThreeDots } from 'react-icons/bs'
 
 const ContentHeading = ({ title, number }) => {
@@ -11,7 +11,7 @@ const ContentHeading = ({ title, number }) => {
             </div>
             <div className='flex items-center justify-center mr-2'>
                 <span className='mx-2 cursor-pointer'><BsThreeDots /></span>
-                <span className=' cursor-pointer'><AiOutlinePlusCircle /></span>
+                <span className=' cursor-pointer'><AiOutlinePlus /></span>
             </div>
         </div>
     )
