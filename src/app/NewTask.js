@@ -22,16 +22,10 @@ const NewTask = ({ addTodo }) => {
   };
 
   return (
-    <>
-      <input
-        className='w-full my-2 outline-none border px-2'
-        type='text'
-        value={inputValue}
-        onChange={handleInputChange}
-      />
-      <div className='flex w-full bg-blue-500 text-white justify-center py-1 items-center align-middle my-1 uppercase text-sm font-bold'>
+<>
+      <div className='flex w-full justify-center py-1 items-center align-middle my-1 capitalizr text-gray-500 text-sm font-bold'>
         <span><AiOutlinePlusCircle /></span>
-        <span className='mx-2 cursor-pointer' onClick={handleAddTodo}>
+        <span className='mx-2 cursor-pointer'>
           new task
         </span>
       </div>

@@ -12,13 +12,13 @@ export default function Home() {
     const [navbar, setNavbar] = useState(false);
     return (
         <div>
-            <nav className="w-full shadow-md">
-                <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-6">
+            <nav className="w-full">
+                <div className="justify-between -ml-2 mx-auto lg:max-w-7xl md:items-center md:flex border-b md:">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-2 md:block">
-                            <div className='flex items-center'>
-                                <Icons icon={<HiBars3 color='gray' size="20px" />} />
-                                <p className='font-bold text-base mx-2'>Constructor</p>
+                            <div className='flex items-center mx-6'>
+                                <Icons icon={<HiBars3 color='#D3D3D3' size="18px" />} />
+                                <p className=' font-extrabold text-gray-600 text-base ml-6'>Constructor</p>
                             </div>
                             <div className="md:hidden">
                                 <button
@@ -63,7 +63,7 @@ export default function Home() {
                             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
                                 }`}
                         >
-                            <ul className="items-center justify-center space-y-8 font-medium md:flex md:space-x-6 md:space-y-0 text-xs">
+                            <ul className="items-center -mx-4 justify-center space-y-8 font-[700] text-gray-400 md:flex md:space-x-6 md:space-y-0 text-sm ">
                                 <li className=' -mt-4 lg:mt-0 cursor-pointer'>Dashboard</li>
                                 <li className='mx-6 cursor-pointer'>About Us</li>
                                 <li className='mx-6 cursor-pointer'>News</li>
@@ -74,14 +74,17 @@ export default function Home() {
                         </div>
 
                     </div>
-                    <div className='flex -ml-2 lg:-mr-4 w-[48%] items-center align-middle'>
-                    <span className='lg:hidden'><Icons icon={<AiOutlineSearch/>} size="20px" color="gray"/></span>
-                    <input className='hidden w-[50%] h-10 lg:block text-xs rounded-2xl px-2 py-1 shadow-sm outline-none' type="text" name="" id="" placeholder=' 🔍 Search Products, Orders and Clients' />
-                    <p className='flex items-center mx-10 cursor-pointer text-sm'><BiSolidUserCircle size="20px" color='gray' /> <span className='mx-2 font-bold'>Clayton</span></p>
-                    <div className='flex'>
-                        <span className='mx-2'><Icons icon={<BsFillBellFill color='gray' size="18px" />} /></span>
-                        <Icons icon={<MdCancel color='gray' size="18px" />} />
-                    </div>
+                    <div className='flex -ml-2 lg:-mr-4 w-[48%] text-gray-400 items-center align-middle'>
+                        <span className='lg:hidden'><Icons icon={<AiOutlineSearch />} size="20px" color="#D3D3D3" /></span>
+                        <div className='flex items-center align-middle rounded-[1.5rem] shadow-sm w-[30rem] bg-white px-4'>
+                            <AiOutlineSearch size="20px" color="#D3D3D3" />
+                            <input className='hidden h-[2.25rem] font-[600] w-[19rem] lg:block text-[0.76rem] px-2 py-1 outline-none' type="text" name="" id="" placeholder=' Search Products, Orders and Clients' />
+                        </div>
+                        <p className='flex items-center mx-10 cursor-pointer text-gray-400 text-sm'><BiSolidUserCircle size="24px" color='#D3D3D3' /> <span className='mx-2 font-bold'>Clayton</span></p>
+                        <div className='flex'>
+                            <span className='mx-2'><Icons icon={<BsFillBellFill color='#D3D3D3' size="18px" />} /></span>
+                            <Icons icon={<MdCancel color='#D3D3D3' size="18px" />} />
+                        </div>
                     </div>
                 </div>
             </nav>

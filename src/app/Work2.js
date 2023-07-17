@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 const Work2 = ({ img, title, userImg }) => {
     return (
-        <div className='mt-4 border p-1 rounded-lg bg-white w-[100%]'>
-            <div className='flex items-center justify-between align-middle my-1'>
-                <span className='text-xs text-gray-500'>Space task 2</span>
+        <div className='mt-4 shadow-sm p-1 rounded-lg text-gray-500  bg-white w-[100%]'>
+            <div className='flex items-center justify-between align-middle mx-4 my-2'>
+                <span className='text-[0.65rem] text-gray-400 font-bold'>Space task 2</span>
                 <Image className='rounded-full' width={20} height={20} src={userImg} alt='img' />
             </div>
-            <h1 className='text-[0.8rem] font-bold'>{title}</h1>
+            <h1 className='text-[0.8rem] my-4 mx-3 font-bold'>{title}</h1>
         </div>
     )
 }

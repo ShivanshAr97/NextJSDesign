@@ -7,7 +7,7 @@ import Content4 from './Content4'
 const Contentt = () => {
   return (
     <div>
-      <ul className='grid sm:grid-cols-1  lg:grid-cols-4 gap-4 mx-4 mt-2 lg:mx-10'>
+      <ul className='grid sm:grid-cols-1 lg:grid-cols-4 gap-4 mx-4 mt-6 lg:mx-4'>
         <Content1 />
         <Content2/>
         <Content3/>

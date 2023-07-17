@@ -7,17 +7,17 @@ import Modal from './Modal'
 
 export default function Home() {
   return (
-    <>
-    <Nav/>
-    <div className='flex'>
-    <SideNav/>
-    <User/>
-    <div className='flex flex-col'>
-    <InnerNav/>
-    <Contentt/>
-    <Modal/>
+    <div div className='w-[110%]'>
+      <Nav />
+      <div className='flex'>
+        <SideNav />
+        <User />
+        <div className='flex flex-col border rounded-[2rem] px-4 mx-2 my-4'>
+          <InnerNav />
+          <Contentt />
+          <Modal />
+        </div>
+      </div>
     </div>
-    </div>
-    </>
   )
 }

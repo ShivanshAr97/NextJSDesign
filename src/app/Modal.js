@@ -16,11 +16,11 @@ const Modal = () => {
                     <button onClick={closeModal}><AiOutlineClose /></button>
                 </div>
                 <ul className='grid grid-cols-2 mx-6'>
-                    <li className='my-1 flex items-center align-middle font-semibold'><AiOutlineEnter color='gray' size="20px" /><span className='mx-4'>7 comments</span> </li>
-                    <li className='my-1 flex items-center align-middle font-semibold'><BiFlag color='gray' size="20px" /><span className='mx-4'>Priority enabled</span> </li>
-                    <li className='my-1 flex items-center align-middle font-semibold'><BiCloud color='gray' size="20px" /><span className='mx-4'>3 files</span> </li>
-                    <li className='my-1 flex items-center align-middle font-semibold'><BiComment color='gray' size="20px" /><span className='mx-4'>7 comments</span> </li>
-                    <li className='my-1 flex items-center align-middle font-semibold'><BiComment color='gray' /><span className='mx-2'>Tyler Norman</span> </li>
+                    <li className='my-1 flex items-center align-middle font-semibold'><AiOutlineEnter color='#D3D3D3' size="20px" /><span className='mx-4'>7 comments</span> </li>
+                    <li className='my-1 flex items-center align-middle font-semibold'><BiFlag color='#D3D3D3' size="20px" /><span className='mx-4'>Priority enabled</span> </li>
+                    <li className='my-1 flex items-center align-middle font-semibold'><BiCloud color='#D3D3D3' size="20px" /><span className='mx-4'>3 files</span> </li>
+                    <li className='my-1 flex items-center align-middle font-semibold'><BiComment color='#D3D3D3' size="20px" /><span className='mx-4'>7 comments</span> </li>
+                    <li className='my-1 flex items-center align-middle font-semibold'><BiComment color='#D3D3D3' /><span className='mx-2'>Tyler Norman</span> </li>
                 </ul>
                 <div className='mt-4 border-t-2 pt-2 flex'>
                     <div className='mx-6'>
