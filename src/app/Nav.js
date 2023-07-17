@@ -10,7 +10,7 @@ import { AiOutlineSearch } from 'react-icons/ai';
 
 export default function Home() {
     const [navbar, setNavbar] = useState(false);
-    const [nav2, setNav2] = useState(false);
+    const [nav2, setNav2] = useState(true);
 
     const nav2Func = () => {
         setNav2(!nav2)
