@@ -9,7 +9,7 @@ import Contant from './Contant';
 
 const User = () => {
     return (
-        <div className='hidden lg:block h-[100%] w-[25%] border-gray-300 text-[#7e7e7e]'>
+        <div className='lg:block h-[100%] lg:w-[25%] border-gray-300 text-[#7e7e7e]'>
             <div className=' flex justify-between mx-12 mt-4'>
                 <Icons icon={<BiSolidUserCircle color='#D3D3D3' size="20px" />} />
                 <Icons icon={<BsThreeDots color='#D3D3D3' size="20px" />} />

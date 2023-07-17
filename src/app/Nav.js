@@ -18,7 +18,7 @@ export default function Home() {
                         <div className="flex items-center justify-between py-3 md:py-2 md:block">
                             <div className='flex items-center mx-6'>
                                 <Icons icon={<HiBars3 color='#D3D3D3' size="18px" />} />
-                                <p className=' font-extrabold text-gray-600 text-base ml-6'>Constructor</p>
+                                <p className=' font-extrabold text-gray-600 text-base lg:ml-6 ml-12'>Constructor</p>
                             </div>
                             <div className="md:hidden">
                                 <button
@@ -75,8 +75,8 @@ export default function Home() {
 
                     </div>
                     <div className='flex -ml-2 lg:-mr-4 w-[48%] text-gray-400 items-center align-middle'>
-                        <span className='lg:hidden'><Icons icon={<AiOutlineSearch />} size="20px" color="#D3D3D3" /></span>
-                        <div className='flex items-center align-middle rounded-[1.5rem] shadow-sm w-[30rem] bg-white px-4'>
+                        <span className='lg:hidden ml-6'><Icons icon={<AiOutlineSearch />} size="20px" color="#D3D3D3" /></span>
+                        <div className='hidden lg:flex items-center align-middle rounded-[1.5rem] shadow-sm w-[30rem] bg-white px-4'>
                             <AiOutlineSearch size="20px" color="#D3D3D3" />
                             <input className='hidden h-[2.25rem] font-[600] w-[19rem] lg:block text-[0.76rem] px-2 py-1 outline-none' type="text" name="" id="" placeholder=' Search Products, Orders and Clients' />
                         </div>

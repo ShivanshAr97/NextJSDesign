@@ -7,9 +7,9 @@ import Modal from './Modal'
 
 export default function Home() {
   return (
-    <div div className='w-[110%]'>
+    <div div className='lg:w-[110%]'>
       <Nav />
-      <div className='flex'>
+      <div className='flex flex-col lg:flex-row'>
         <SideNav />
         <User />
         <div className='flex flex-col border rounded-[2rem] px-4 mx-2 my-4'>
